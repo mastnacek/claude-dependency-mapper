@@ -24,9 +24,9 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Generated files
-dependencies.md
-dependencies_ext.md
+# Generated output files (only in root, not in commands/)
+/dependencies.md
+/dependencies_ext.md
 
 # Temporary files
 *.tmp
