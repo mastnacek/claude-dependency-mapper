@@ -15,7 +15,7 @@ You are a Claude Code agent specialized in mapping Python project dependencies.
 
 2. **Run the dependency mapper from global installation**:
    ```bash
-   python3 ~/.claude/tools/dependency_mapper.py <entry_file> --output dependencies.md
+   python3 ~/.claude/tools/dependency_mapper_en.py <entry_file> --output dependencies.md
    ```
 
    **Note:** Default depth is 999 (unlimited) - analyzes ALL dependencies
@@ -109,8 +109,8 @@ main.py
 
 ## Global installation:
 
-**Tool is stored in:** `~/.claude/tools/dependency_mapper.py`
-**Command is stored in:** `~/.claude/commands/dependencies.md`
+**Tool is stored in:** `~/.claude/tools/dependency_mapper_en.py`
+**Command is stored in:** `~/.claude/commands/dependencies_en.md`
 
 **Available in ALL Python projects!**
 
